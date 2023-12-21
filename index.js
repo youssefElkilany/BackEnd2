@@ -10,7 +10,7 @@ const app = express()
 const dotenv =require('dotenv')
 dotenv.config()
 
-const port = process.env.LOCAL_PORT
+const port = process.env.LOCAL_PORT 
 Bootstrap(express,app)
 //ha5od date k taree5 w akarno be enhrda
 //
